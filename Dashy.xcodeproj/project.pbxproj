@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2CCE8BD2586E2600084850E /* LightiFyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CCE8BC2586E2600084850E /* LightiFyApp.swift */; };
+		C2CCE8BF2586E2600084850E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CCE8BE2586E2600084850E /* ContentView.swift */; };
+		C2CCE8C12586E2610084850E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CCE8C02586E2610084850E /* Assets.xcassets */; };
+		C2CCE8C42586E2610084850E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CCE8C32586E2610084850E /* Preview Assets.xcassets */; };
+		C2CCE8DE2586E53D0084850E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CCE8DD2586E53D0084850E /* CardView.swift */; };
+		C2CCE8E12586E55B0084850E /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CCE8E02586E55B0084850E /* ButtonStyle.swift */; };
+		C2CCE8E82586E8E20084850E /* light_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CCE8E72586E8E20084850E /* light_data.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C2CCE8B92586E2600084850E /* Dashy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dashy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2CCE8BC2586E2600084850E /* LightiFyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightiFyApp.swift; sourceTree = "<group>"; };
+		C2CCE8BE2586E2600084850E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2CCE8C02586E2610084850E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2CCE8C32586E2610084850E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2CCE8C52586E2610084850E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2CCE8C62586E2610084850E /* LightiFy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LightiFy.entitlements; sourceTree = "<group>"; };
+		C2CCE8DD2586E53D0084850E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C2CCE8E02586E55B0084850E /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		C2CCE8E72586E8E20084850E /* light_data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = light_data.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2CCE8B62586E2600084850E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2CCE8B02586E2600084850E = {
+			isa = PBXGroup;
+			children = (
+				C2CCE8BB2586E2600084850E /* LightiFy */,
+				C2CCE8BA2586E2600084850E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2CCE8BA2586E2600084850E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2CCE8B92586E2600084850E /* Dashy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2CCE8BB2586E2600084850E /* LightiFy */ = {
+			isa = PBXGroup;
+			children = (
+				C2CCE8E72586E8E20084850E /* light_data.swift */,
+				C2CCE8BC2586E2600084850E /* LightiFyApp.swift */,
+				C2CCE8DD2586E53D0084850E /* CardView.swift */,
+				C2CCE8BE2586E2600084850E /* ContentView.swift */,
+				C2CCE8C02586E2610084850E /* Assets.xcassets */,
+				C2CCE8E02586E55B0084850E /* ButtonStyle.swift */,
+				C2CCE8C52586E2610084850E /* Info.plist */,
+				C2CCE8C62586E2610084850E /* LightiFy.entitlements */,
+				C2CCE8C22586E2610084850E /* Preview Content */,
+			);
+			path = LightiFy;
+			sourceTree = "<group>";
+		};
+		C2CCE8C22586E2610084850E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2CCE8C32586E2610084850E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2CCE8B82586E2600084850E /* Dashy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2CCE8C92586E2610084850E /* Build configuration list for PBXNativeTarget "Dashy" */;
+			buildPhases = (
+				C2CCE8B52586E2600084850E /* Sources */,
+				C2CCE8B62586E2600084850E /* Frameworks */,
+				C2CCE8B72586E2600084850E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dashy;
+			productName = LightiFy;
+			productReference = C2CCE8B92586E2600084850E /* Dashy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2CCE8B12586E2600084850E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					C2CCE8B82586E2600084850E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = C2CCE8B42586E2600084850E /* Build configuration list for PBXProject "Dashy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2CCE8B02586E2600084850E;
+			productRefGroup = C2CCE8BA2586E2600084850E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2CCE8B82586E2600084850E /* Dashy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2CCE8B72586E2600084850E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CCE8C42586E2610084850E /* Preview Assets.xcassets in Resources */,
+				C2CCE8C12586E2610084850E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2CCE8B52586E2600084850E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CCE8BF2586E2600084850E /* ContentView.swift in Sources */,
+				C2CCE8E82586E8E20084850E /* light_data.swift in Sources */,
+				C2CCE8DE2586E53D0084850E /* CardView.swift in Sources */,
+				C2CCE8E12586E55B0084850E /* ButtonStyle.swift in Sources */,
+				C2CCE8BD2586E2600084850E /* LightiFyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C2CCE8C72586E2610084850E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2CCE8C82586E2610084850E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C2CCE8CA2586E2610084850E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LightiFy/LightiFy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LightiFy/Preview Content\"";
+				DEVELOPMENT_TEAM = 4538W4A79B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LightiFy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aayush.lightify.LightiFy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C2CCE8CB2586E2610084850E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LightiFy/LightiFy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LightiFy/Preview Content\"";
+				DEVELOPMENT_TEAM = 4538W4A79B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LightiFy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aayush.lightify.LightiFy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2CCE8B42586E2600084850E /* Build configuration list for PBXProject "Dashy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2CCE8C72586E2610084850E /* Debug */,
+				C2CCE8C82586E2610084850E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2CCE8C92586E2610084850E /* Build configuration list for PBXNativeTarget "Dashy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2CCE8CA2586E2610084850E /* Debug */,
+				C2CCE8CB2586E2610084850E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2CCE8B12586E2600084850E /* Project object */;
+}
