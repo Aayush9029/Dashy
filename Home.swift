@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct Home: View {
-    // Screen...
-    var screen = NSScreen.main!.visibleFrame
     
     @State var selected = "person"
     @Namespace var animation

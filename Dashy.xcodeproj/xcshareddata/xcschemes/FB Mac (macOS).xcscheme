@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AD85EFEE2587892F00DFE6F5"
-               BuildableName = "FB Mac.app"
+               BuildableName = "Dashy.app"
                BlueprintName = "Dashy (macOS)"
                ReferencedContainer = "container:Dashy.xcodeproj">
             </BuildableReference>
@@ -59,7 +59,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AD85EFEE2587892F00DFE6F5"
-            BuildableName = "FB Mac.app"
+            BuildableName = "Dashy.app"
             BlueprintName = "Dashy (macOS)"
             ReferencedContainer = "container:Dashy.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AD85EFEE2587892F00DFE6F5"
-            BuildableName = "FB Mac.app"
+            BuildableName = "Dashy.app"
             BlueprintName = "Dashy (macOS)"
             ReferencedContainer = "container:Dashy.xcodeproj">
          </BuildableReference>
