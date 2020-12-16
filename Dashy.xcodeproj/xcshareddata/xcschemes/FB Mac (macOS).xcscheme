@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C2CCE8B82586E2600084850E"
-               BuildableName = "Dashy.app"
-               BlueprintName = "Dashy"
+               BlueprintIdentifier = "AD85EFEE2587892F00DFE6F5"
+               BuildableName = "FB Mac.app"
+               BlueprintName = "Dashy (macOS)"
+               ReferencedContainer = "container:Dashy.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AD85F0012587892F00DFE6F5"
+               BuildableName = "Tests macOS.xctest"
+               BlueprintName = "Tests macOS"
                ReferencedContainer = "container:Dashy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +58,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C2CCE8B82586E2600084850E"
-            BuildableName = "Dashy.app"
-            BlueprintName = "Dashy"
+            BlueprintIdentifier = "AD85EFEE2587892F00DFE6F5"
+            BuildableName = "FB Mac.app"
+            BlueprintName = "Dashy (macOS)"
             ReferencedContainer = "container:Dashy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,9 +75,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C2CCE8B82586E2600084850E"
-            BuildableName = "Dashy.app"
-            BlueprintName = "Dashy"
+            BlueprintIdentifier = "AD85EFEE2587892F00DFE6F5"
+            BuildableName = "FB Mac.app"
+            BlueprintName = "Dashy (macOS)"
             ReferencedContainer = "container:Dashy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

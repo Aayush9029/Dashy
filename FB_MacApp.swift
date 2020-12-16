@@ -1,29 +1,33 @@
 //
-//  LightiFyApp.swift
-//  LightiFy
+//  FB_MacApp.swift
+//  Shared
 //
-//  Created by Aayush Pokharel on 2020-12-13.
+//  Created by Balaji on 14/12/20.
 //
 
 import SwiftUI
 
 @main
-struct LightiFyApp: App {
+struct FB_MacApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .frame(minWidth: 500, minHeight: 300)
+                .frame(minWidth:1000, minHeight: 800)
+
+            
         }
-        // Hiding The Title Bar...
+        // Hiding Window Title
+        
         .windowStyle(HiddenTitleBarWindowStyle())
     }
 }
 
-// Hiding Textfield Focus Ring...
+// Hiding Textfield Ring...
+
 extension NSTextField{
+    
     open override var focusRingType: NSFocusRingType{
         get{.none}
         set{}
     }
 }
-

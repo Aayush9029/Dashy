@@ -3,34 +3,76 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2CCE8BD2586E2600084850E /* LightiFyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CCE8BC2586E2600084850E /* LightiFyApp.swift */; };
-		C2CCE8BF2586E2600084850E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CCE8BE2586E2600084850E /* ContentView.swift */; };
-		C2CCE8C12586E2610084850E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CCE8C02586E2610084850E /* Assets.xcassets */; };
-		C2CCE8C42586E2610084850E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CCE8C32586E2610084850E /* Preview Assets.xcassets */; };
-		C2CCE8DE2586E53D0084850E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CCE8DD2586E53D0084850E /* CardView.swift */; };
-		C2CCE8E12586E55B0084850E /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CCE8E02586E55B0084850E /* ButtonStyle.swift */; };
-		C2CCE8E82586E8E20084850E /* light_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CCE8E72586E8E20084850E /* light_data.swift */; };
+		AD0BA8402587C71C00CBD3FE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0BA8362587C70F00CBD3FE /* Home.swift */; };
+		AD7832E2258899090074C29E /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7832E0258899090074C29E /* TabButton.swift */; };
+		AD85F0072587892F00DFE6F5 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD85F0062587892F00DFE6F5 /* Tests_macOS.swift */; };
+		AD85F00A2587892F00DFE6F5 /* FB_MacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD85EFE02587892E00DFE6F5 /* FB_MacApp.swift */; };
+		AD85F00C2587892F00DFE6F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD85EFE12587892E00DFE6F5 /* ContentView.swift */; };
+		AD85F00E2587892F00DFE6F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD85EFE22587892F00DFE6F5 /* Assets.xcassets */; };
+		C20043DC258981880054847E /* SmallCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20043DB258981880054847E /* SmallCardView.swift */; };
+		C20043E0258981AF0054847E /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20043DF258981AF0054847E /* ButtonStyle.swift */; };
+		C200441D25898B760054847E /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = C200441C25898B760054847E /* Charts */; };
+		C22BF4222589801C00840002 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22BF4212589801C00840002 /* Data.swift */; };
+		C22BF4282589804300840002 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22BF4272589804300840002 /* ColorPickerView.swift */; };
+		C22BF436258980BE00840002 /* WeatherAndStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22BF435258980BE00840002 /* WeatherAndStuff.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AD85F0032587892F00DFE6F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD85EFDB2587892E00DFE6F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD85EFEE2587892F00DFE6F5;
+			remoteInfo = "FB Mac (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C200441A25898ACC0054847E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		C2CCE8B92586E2600084850E /* Dashy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dashy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2CCE8BC2586E2600084850E /* LightiFyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightiFyApp.swift; sourceTree = "<group>"; };
-		C2CCE8BE2586E2600084850E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C2CCE8C02586E2610084850E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C2CCE8C32586E2610084850E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C2CCE8C52586E2610084850E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2CCE8C62586E2610084850E /* LightiFy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LightiFy.entitlements; sourceTree = "<group>"; };
-		C2CCE8DD2586E53D0084850E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		C2CCE8E02586E55B0084850E /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
-		C2CCE8E72586E8E20084850E /* light_data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = light_data.swift; sourceTree = "<group>"; };
+		AD0BA8362587C70F00CBD3FE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AD7832E0258899090074C29E /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		AD85EFE02587892E00DFE6F5 /* FB_MacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FB_MacApp.swift; sourceTree = "<group>"; };
+		AD85EFE12587892E00DFE6F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD85EFE22587892F00DFE6F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD85EFEF2587892F00DFE6F5 /* Dashy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dashy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD85EFF12587892F00DFE6F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD85EFF22587892F00DFE6F5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AD85F0022587892F00DFE6F5 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD85F0062587892F00DFE6F5 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AD85F0082587892F00DFE6F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20043DB258981880054847E /* SmallCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCardView.swift; sourceTree = "<group>"; };
+		C20043DF258981AF0054847E /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		C22BF4212589801C00840002 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		C22BF4272589804300840002 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		C22BF435258980BE00840002 /* WeatherAndStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAndStuff.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C2CCE8B62586E2600084850E /* Frameworks */ = {
+		AD85EFEC2587892F00DFE6F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C200441D25898B760054847E /* Charts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD85EFFF2587892F00DFE6F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,81 +82,129 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C2CCE8B02586E2600084850E = {
+		AD0BA82E2587C6FE00CBD3FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C2CCE8BB2586E2600084850E /* LightiFy */,
-				C2CCE8BA2586E2600084850E /* Products */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD0BA8352587C70800CBD3FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C22BF435258980BE00840002 /* WeatherAndStuff.swift */,
+				C22BF4272589804300840002 /* ColorPickerView.swift */,
+				C20043DB258981880054847E /* SmallCardView.swift */,
+				AD7832E0258899090074C29E /* TabButton.swift */,
+				C20043DF258981AF0054847E /* ButtonStyle.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD0BA8452587D0B000CBD3FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C22BF4212589801C00840002 /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD85EFDA2587892E00DFE6F5 = {
+			isa = PBXGroup;
+			children = (
+				AD85EFF12587892F00DFE6F5 /* Info.plist */,
+				AD85EFF22587892F00DFE6F5 /* macOS.entitlements */,
+				AD85EFE02587892E00DFE6F5 /* FB_MacApp.swift */,
+				AD85EFE12587892E00DFE6F5 /* ContentView.swift */,
+				AD0BA8362587C70F00CBD3FE /* Home.swift */,
+				AD0BA8452587D0B000CBD3FE /* Model */,
+				AD0BA8352587C70800CBD3FE /* View */,
+				AD85EFE22587892F00DFE6F5 /* Assets.xcassets */,
+				AD85F0052587892F00DFE6F5 /* Tests macOS */,
+				AD85EFE82587892F00DFE6F5 /* Products */,
+				AD0BA82E2587C6FE00CBD3FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		C2CCE8BA2586E2600084850E /* Products */ = {
+		AD85EFE82587892F00DFE6F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2CCE8B92586E2600084850E /* Dashy.app */,
+				AD85EFEF2587892F00DFE6F5 /* Dashy.app */,
+				AD85F0022587892F00DFE6F5 /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C2CCE8BB2586E2600084850E /* LightiFy */ = {
+		AD85F0052587892F00DFE6F5 /* Tests macOS */ = {
 			isa = PBXGroup;
 			children = (
-				C2CCE8E72586E8E20084850E /* light_data.swift */,
-				C2CCE8BC2586E2600084850E /* LightiFyApp.swift */,
-				C2CCE8DD2586E53D0084850E /* CardView.swift */,
-				C2CCE8BE2586E2600084850E /* ContentView.swift */,
-				C2CCE8C02586E2610084850E /* Assets.xcassets */,
-				C2CCE8E02586E55B0084850E /* ButtonStyle.swift */,
-				C2CCE8C52586E2610084850E /* Info.plist */,
-				C2CCE8C62586E2610084850E /* LightiFy.entitlements */,
-				C2CCE8C22586E2610084850E /* Preview Content */,
+				AD85F0062587892F00DFE6F5 /* Tests_macOS.swift */,
+				AD85F0082587892F00DFE6F5 /* Info.plist */,
 			);
-			path = LightiFy;
-			sourceTree = "<group>";
-		};
-		C2CCE8C22586E2610084850E /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				C2CCE8C32586E2610084850E /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C2CCE8B82586E2600084850E /* Dashy */ = {
+		AD85EFEE2587892F00DFE6F5 /* Dashy (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2CCE8C92586E2610084850E /* Build configuration list for PBXNativeTarget "Dashy" */;
+			buildConfigurationList = AD85F0142587892F00DFE6F5 /* Build configuration list for PBXNativeTarget "Dashy (macOS)" */;
 			buildPhases = (
-				C2CCE8B52586E2600084850E /* Sources */,
-				C2CCE8B62586E2600084850E /* Frameworks */,
-				C2CCE8B72586E2600084850E /* Resources */,
+				AD85EFEB2587892F00DFE6F5 /* Sources */,
+				AD85EFEC2587892F00DFE6F5 /* Frameworks */,
+				AD85EFED2587892F00DFE6F5 /* Resources */,
+				C200441A25898ACC0054847E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Dashy;
-			productName = LightiFy;
-			productReference = C2CCE8B92586E2600084850E /* Dashy.app */;
+			name = "Dashy (macOS)";
+			packageProductDependencies = (
+				C200441C25898B760054847E /* Charts */,
+			);
+			productName = "FB Mac (macOS)";
+			productReference = AD85EFEF2587892F00DFE6F5 /* Dashy.app */;
 			productType = "com.apple.product-type.application";
+		};
+		AD85F0012587892F00DFE6F5 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD85F01A2587892F00DFE6F5 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AD85EFFE2587892F00DFE6F5 /* Sources */,
+				AD85EFFF2587892F00DFE6F5 /* Frameworks */,
+				AD85F0002587892F00DFE6F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD85F0042587892F00DFE6F5 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AD85F0022587892F00DFE6F5 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C2CCE8B12586E2600084850E /* Project object */ = {
+		AD85EFDB2587892E00DFE6F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					C2CCE8B82586E2600084850E = {
+					AD85EFEE2587892F00DFE6F5 = {
 						CreatedOnToolsVersion = 12.2;
+					};
+					AD85F0012587892F00DFE6F5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = AD85EFEE2587892F00DFE6F5;
 					};
 				};
 			};
-			buildConfigurationList = C2CCE8B42586E2600084850E /* Build configuration list for PBXProject "Dashy" */;
+			buildConfigurationList = AD85EFDE2587892E00DFE6F5 /* Build configuration list for PBXProject "Dashy" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,45 +212,75 @@
 				en,
 				Base,
 			);
-			mainGroup = C2CCE8B02586E2600084850E;
-			productRefGroup = C2CCE8BA2586E2600084850E /* Products */;
+			mainGroup = AD85EFDA2587892E00DFE6F5;
+			packageReferences = (
+				C200441B25898B760054847E /* XCRemoteSwiftPackageReference "swiftui-charts" */,
+			);
+			productRefGroup = AD85EFE82587892F00DFE6F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2CCE8B82586E2600084850E /* Dashy */,
+				AD85EFEE2587892F00DFE6F5 /* Dashy (macOS) */,
+				AD85F0012587892F00DFE6F5 /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C2CCE8B72586E2600084850E /* Resources */ = {
+		AD85EFED2587892F00DFE6F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2CCE8C42586E2610084850E /* Preview Assets.xcassets in Resources */,
-				C2CCE8C12586E2610084850E /* Assets.xcassets in Resources */,
+				AD85F00E2587892F00DFE6F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD85F0002587892F00DFE6F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C2CCE8B52586E2600084850E /* Sources */ = {
+		AD85EFEB2587892F00DFE6F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2CCE8BF2586E2600084850E /* ContentView.swift in Sources */,
-				C2CCE8E82586E8E20084850E /* light_data.swift in Sources */,
-				C2CCE8DE2586E53D0084850E /* CardView.swift in Sources */,
-				C2CCE8E12586E55B0084850E /* ButtonStyle.swift in Sources */,
-				C2CCE8BD2586E2600084850E /* LightiFyApp.swift in Sources */,
+				C22BF4222589801C00840002 /* Data.swift in Sources */,
+				AD85F00C2587892F00DFE6F5 /* ContentView.swift in Sources */,
+				C22BF436258980BE00840002 /* WeatherAndStuff.swift in Sources */,
+				C22BF4282589804300840002 /* ColorPickerView.swift in Sources */,
+				C20043DC258981880054847E /* SmallCardView.swift in Sources */,
+				AD0BA8402587C71C00CBD3FE /* Home.swift in Sources */,
+				C20043E0258981AF0054847E /* ButtonStyle.swift in Sources */,
+				AD7832E2258899090074C29E /* TabButton.swift in Sources */,
+				AD85F00A2587892F00DFE6F5 /* FB_MacApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD85EFFE2587892F00DFE6F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD85F0072587892F00DFE6F5 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		AD85F0042587892F00DFE6F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD85EFEE2587892F00DFE6F5 /* Dashy (macOS) */;
+			targetProxy = AD85F0032587892F00DFE6F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		C2CCE8C72586E2610084850E /* Debug */ = {
+		AD85F00F2587892F00DFE6F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,17 +331,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		C2CCE8C82586E2610084850E /* Release */ = {
+		AD85F0102587892F00DFE6F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,85 +384,153 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		C2CCE8CA2586E2610084850E /* Debug */ = {
+		AD85F0152587892F00DFE6F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = LightiFy/LightiFy.entitlements;
+				CODE_SIGN_ENTITLEMENTS = macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"LightiFy/Preview Content\"";
 				DEVELOPMENT_TEAM = 4538W4A79B;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = LightiFy/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aayush.lightify.LightiFy;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macos.dashy;
+				PRODUCT_NAME = Dashy;
+				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		C2CCE8CB2586E2610084850E /* Release */ = {
+		AD85F0162587892F00DFE6F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = LightiFy/LightiFy.entitlements;
+				CODE_SIGN_ENTITLEMENTS = macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"LightiFy/Preview Content\"";
 				DEVELOPMENT_TEAM = 4538W4A79B;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = LightiFy/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aayush.lightify.LightiFy;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macos.dashy;
+				PRODUCT_NAME = Dashy;
+				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD85F01B2587892F00DFE6F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4538W4A79B;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FB Mac (macOS)";
+			};
+			name = Debug;
+		};
+		AD85F01C2587892F00DFE6F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4538W4A79B;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FB Mac (macOS)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2CCE8B42586E2600084850E /* Build configuration list for PBXProject "Dashy" */ = {
+		AD85EFDE2587892E00DFE6F5 /* Build configuration list for PBXProject "Dashy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2CCE8C72586E2610084850E /* Debug */,
-				C2CCE8C82586E2610084850E /* Release */,
+				AD85F00F2587892F00DFE6F5 /* Debug */,
+				AD85F0102587892F00DFE6F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2CCE8C92586E2610084850E /* Build configuration list for PBXNativeTarget "Dashy" */ = {
+		AD85F0142587892F00DFE6F5 /* Build configuration list for PBXNativeTarget "Dashy (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2CCE8CA2586E2610084850E /* Debug */,
-				C2CCE8CB2586E2610084850E /* Release */,
+				AD85F0152587892F00DFE6F5 /* Debug */,
+				AD85F0162587892F00DFE6F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD85F01A2587892F00DFE6F5 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD85F01B2587892F00DFE6F5 /* Debug */,
+				AD85F01C2587892F00DFE6F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C200441B25898B760054847E /* XCRemoteSwiftPackageReference "swiftui-charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spacenation/swiftui-charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C200441C25898B760054847E /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C200441B25898B760054847E /* XCRemoteSwiftPackageReference "swiftui-charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = C2CCE8B12586E2600084850E /* Project object */;
+	rootObject = AD85EFDB2587892E00DFE6F5 /* Project object */;
 }

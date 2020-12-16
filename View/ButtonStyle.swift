@@ -8,33 +8,12 @@
 import SwiftUI
 
 
-struct DarkBackground<S: Shape>: View {
+struct NeuButton<S: Shape>: View {
     var isHighlighted: Bool
     var shape: S
-    @Environment(\.colorScheme) var colorScheme
-
-//    LinearGradient(Color.darkStart, Color.darkEnd), lineWidth: 4)
     
     var body: some View {
-        if (colorScheme == .dark){
-        ZStack {
-            if isHighlighted {
-                shape
-                    .fill(LinearGradient(Color.darkEnd, Color.darkStart))
-                          .overlay(shape.stroke(LinearGradient(Color.darkStart, Color.darkEnd), lineWidth: 4))
-                          .shadow(color: Color.darkStart, radius: 10, x: 5, y: 5)
-                          .shadow(color: Color.darkEnd, radius: 10, x: -5, y: -5)
 
-            } else {
-                shape
-                    .fill(LinearGradient(Color.darkStart, Color.darkEnd))
-                    .shadow(color: Color.darkStart, radius: 10, x: -10, y: -10)
-                    .shadow(color: Color.darkEnd, radius: 10, x: 10, y: 10)
-            }
-        }
-    
-    }else{
-    ZStack {
         Group {
             if isHighlighted {
                shape
@@ -64,15 +43,15 @@ struct DarkBackground<S: Shape>: View {
 
         }
     }
-}
-}
 
-struct DarkButtonStyle: ButtonStyle {
+
+
+struct NeuButtonStyle: ButtonStyle {
     func makeBody(configuration: Self.Configuration) -> some View {
         configuration.label
             .contentShape(  RoundedRectangle(cornerRadius: 10))
             .background(
-                DarkBackground(isHighlighted: configuration.isPressed, shape:   RoundedRectangle(cornerRadius: 10)))
+                NeuButton(isHighlighted: configuration.isPressed, shape:   RoundedRectangle(cornerRadius: 10)))
             
     }
 }
@@ -89,6 +68,5 @@ extension LinearGradient {
 
 extension Color {
     static let offWhite = Color(red: 225 / 255, green: 225 / 255, blue: 235 / 255)
-    static let darkStart = Color(red: 50 / 255, green: 60 / 255, blue: 65 / 255)
-    static let darkEnd = Color(red: 25 / 255, green: 25 / 255, blue: 30 / 255)
+    static let offWhite_tab =   Color(red: 235 / 255, green: 235 / 255, blue: 245 / 255)
 }

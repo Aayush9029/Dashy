@@ -1,13 +1,20 @@
 //
-//  light_data.swift
-//  LightiFy
+//  Data.swift
+//  FB Mac (macOS)
 //
-//  Created by Aayush Pokharel on 2020-12-13.
+//  Created by Aayush Pokharel on 2020-12-15.
 //
 
 import Foundation
 import SwiftUI
 
+
+extension Double {
+    func rounded(toPlaces places:Int) -> Double {
+        let divisor = pow(10.0, Double(places))
+        return (self * divisor).rounded() / divisor
+    }
+}
 
 //  USAGE: "StringValue".camelCaseToTitleCase()
 extension String {

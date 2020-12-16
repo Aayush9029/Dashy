@@ -1,8 +1,8 @@
 //
-//  CardView.swift
-//  LightiFy
+//  SmallCardView.swift
+//  FB Mac (macOS)
 //
-//  Created by Aayush Pokharel on 2020-12-13.
+//  Created by Aayush Pokharel on 2020-12-15.
 //
 
 import SwiftUI
@@ -21,11 +21,11 @@ struct SmallCardView: View {
                     Image(systemName: "rectangle.fill")
                         .resizable()
                         .frame(width: 50, height: 50, alignment: .leading)
-                        .shadow(color: color.opacity(0.5), radius: 5, x: -2, y: -2)
+                        .shadow(color: color.opacity(0.5), radius: 8, x: -2, y: -2)
                         .foregroundColor(color)
                 }
           }
-            .buttonStyle(DarkButtonStyle())
+            .buttonStyle(NeuButtonStyle())
             
         }
 
